@@ -1,0 +1,135 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 0%, 0.2);
+}
+ul.meniu-buttons {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+a.meniu-button {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-container {
+    width: calc(100% / 2);
+    display: flex;
+    flex-wrap: wrap;
+}
+.radio-container {
+    width: calc(100% / 2);
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 100%;
+    /* height: 300px;
+    object-fit: cover; */
+}
+.news-main a {
+    text-decoration: none;
+    color: black;
+
+}
+.news-main {
+    background-color: white;
+}
+.news-title {
+    padding: 15px;
+}
+.news-bigger {
+    display: flex;
+    column-gap: 15px;
+}
+a.news-secondary-wrap {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.news-smaller {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.news-secondary {
+    width: calc(100% / 2);
+}
+.news-secondary-wrap .news-photo {
+    width: 100px;
+}
+.news-button a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+.news-button {
+    padding: 15px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color: white;
+    width: 100%;
+}
+.video-content p {
+    font-size: 20px;
+}
+.video-news-button {
+    padding: 15px;
+    font-size: 25px;
+    background-color: white;
+}
+.video-news-button a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+.radio-show {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.radio-top {
+    display: flex;
+    width: 100%;
+}
+.radio-photo {
+    width: calc(100% / 6);
+}
+.lenth {
+    width: calc(100% / 6 * 5);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+}
+.play-button {
+    width: calc(100% / 6);
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 50px;
+}
+.radio-bottom {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+}
+.radio-bottom .date {
+    color: grey;
+}
